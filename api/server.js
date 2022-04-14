@@ -9,7 +9,7 @@ server.use(express.json())
 server.use(cors())
 
 server.get('/', (req, res) => {
-    res.send('hello world')
+    res.send("william's simple heroku app")
 })
 
 server.get('/api/users', (req,res) => {
